@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Aboreto', sans-serif;
+}
+
+input[type="text"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#submit {
+    font-family: 'Aboreto', sans-serif;
+    font-size: 1em;
+    color: #ffffff;
+    background: linear-gradient(225deg, #007F3B, #00BF0D);
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.5em 2em;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 15px;
+    margin-bottom: 1em;
+}
+
+#submit:hover {
+    background-color: #028a0c;
+    transform: scale(1.05);
+}
+

@@ -1,0 +1,85 @@
+#login {
+    width: 90%;
+    max-width: 400px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+}
+
+#login h1 {
+    font-family: 'Aboreto', sans-serif;
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#login label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+#login input {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+#login button {
+    width: 100%;
+    padding: 0.8em;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Aboreto', sans-serif;
+    color: #fff;
+    background: linear-gradient(225deg, #007F3B, #00BF0D);
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+#login button:hover {
+    background-color: #028a0c;
+    transform: scale(1.05);
+}
+
+#login p {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 0.9em;
+    color: #555;
+}
+
+section {
+    display: flex;
+}
+
+.change {
+    margin-right: 10px;
+}
+
+#registrazione #allora_accedi, #accedi #allora_registrati {
+    color: #007F3B;
+    border: none;
+    background: none;
+    font-weight: bold;
+    padding: 0;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    width: auto;
+    cursor: pointer;
+}
+
+#registrazione #allora_accedi:hover, #accedi #allora_registrati:hover {
+    color: #00BF0D;
+}

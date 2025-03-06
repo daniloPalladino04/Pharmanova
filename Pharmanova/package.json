@@ -1,0 +1,17 @@
+{
+  "name": "pharmanova",
+  "version": "1.0.0",
+  "description": "Pharmanova - La tua farmacia di fiducia dal 1824",
+  "main": "index.php",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {},
+  "scripts": {
+    "start": "browser-sync start --proxy localhost/pharmanova --files 'stile/*.css, *.php, script/*.js, *.html'"
+  },
+  "author": "Il tuo nome",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "3.0.3"
+  }
+}

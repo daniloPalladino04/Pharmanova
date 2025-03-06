@@ -1,0 +1,65 @@
+/* Stili per la sezione main */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 6em;
+    gap: 4em;
+}
+
+.scelta_login {
+    background: linear-gradient(45deg, #ffffff, #e0ffe0);
+    padding: 3em;
+    border: 2px solid #00B516;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    max-width: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.scelta_login:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.scelta_login p {
+    margin-bottom: 1.5em;
+    color: #000000;
+}
+
+.accedi {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0.5em 2em;
+    color: #ffffff;
+    background: linear-gradient(225deg, #007F3B, #00BF0D);
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.accedi p {
+    font-family: 'Aboreto', sans-serif;
+    margin: 0;
+    color: #ffffff;
+}
+
+.accedi:hover {
+    background-color: #028a0c;
+    transform: scale(1.05);
+}

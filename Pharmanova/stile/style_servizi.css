@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* Stili per ogni servizio */
+.service {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Stili per le immagini dei servizi */
+.service img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/* Stili per i titoli dei servizi */
+.service h2 {
+    font-family: 'Aboreto', sans-serif;
+    color: #007F3B;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Stili per i paragrafi dei servizi */
+.service p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #333;
+    text-align: left;
+}

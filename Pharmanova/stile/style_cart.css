@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+}
+.cart-container {
+    width: 100%;
+    margin-bottom: 5em;
+}
+
+.cart-container table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 2em;
+}
+
+.cart-container th, .cart-container td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-container th {
+    background-color: #f2f2f2;
+}
+
+.cart-container tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.cart-container tr:hover {
+    background-color: #ddd;
+}
+
+.cart-container .btn {
+    background-color: #007F3B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+    margin: 2em;
+}
+
+.cart-container .btn:hover {
+    background-color: #028a0c;
+    transform: scale(1.05);
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.action-form {
+    display: flex;
+    gap: 10px;
+}
